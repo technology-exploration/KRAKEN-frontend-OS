@@ -1,0 +1,206 @@
+.searchInput {
+  background: var(--greyLight3);
+  color: #CDCDCD;
+  font-size: 1.5em;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  width: 91%;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 35px 85px;
+
+  .radio_toolbar input[type='radio'] {
+    display: none;
+  }
+
+  .radio_toolbar label {
+    display: inline-block;
+    padding: 4px 11px;
+    margin: 4px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .radio_toolbar input[type='radio']:checked + label {
+    background-color: #A9A9A9;
+    color: #FFFFFF;
+  }
+
+  .input {
+    height: 3rem;
+    font-family: var(--sans);
+    color: var(--black);
+    background: var(--white);
+    display: flex;
+    border: 2px solid var(--greybackground);
+    text-align: left;
+    font-style: normal;
+    line-height: normal;
+    cursor: initial;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .react_autosuggest__container {
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .react_autosuggest__input {
+    padding: 10px 20px;
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    height: 3rem;
+    font-family: var(--sans);
+    color: var(--black);
+    background: var(--white);
+    display: flex;
+    text-align: left;
+    font-style: normal;
+    line-height: normal;
+    cursor: initial;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .react_autosuggest__input__focused {
+    outline: none;
+  }
+
+  .react_autosuggest__input__open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .react_autosuggest__suggestions_container {
+    display: none;
+  }
+
+  .react_autosuggest__suggestions_container__open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 280px;
+    border: 1px solid #AAAAAA;
+    background-color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+  }
+
+  .react_autosuggest__suggestions_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .react_autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+
+  .react_autosuggest__suggestion__highlighted {
+    background-color: #DDDDDD;
+  }
+
+  .react-autosuggest__suggestions__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .editing {
+    color: var(--greyDark2);
+  }
+
+  .clearButton {
+    appearance: none;
+    background: none;
+    border: none;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0 0 0 8px;
+    box-sizing: content-box;
+    line-height: 0;
+    flex-shrink: 0;
+  }
+
+  .clearButton path {
+    transition: all 0.1s;
+    fill: #A3A3A3;
+    stroke: #A3A3A3;
+  }
+
+  .clearButton:hover path {
+    fill: var(--greyDark2);
+    stroke: var(--greyDark2);
+  }
+
+  .clearButton:focus {
+    outline: none;
+  }
+
+  .radioButtons {
+    display: inline-flex;
+    align-items: start;
+    margin-right: auto;
+  }
+
+  .advancedDropdowns {
+    display: flex;
+    width: 98%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+
+    select {
+      font-size: 18px;
+    }
+  }
+
+  .advancedTitle {
+    font-size: 1rem;
+    align-self: start;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .radioLabel {
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (--md-down) {
+  .searchInput {
+    height: 80px;
+    font-size: 16px;
+
+    .clearButton {
+      width: 11px;
+      height: 11px;
+      margin: 0 0 0 4px;
+    }
+  }
+}

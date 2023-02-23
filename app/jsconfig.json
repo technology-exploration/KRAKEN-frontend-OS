@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "$app/**/*": ["./**/*"],
+      "$auth/**/*": ["src/auth/**/*"],
+      "$docs/**/*": ["src/docs/**/*"],
+      "$mp/**/*": ["src/marketplace/**/*"],
+      "$userpages/**/*": ["src/userpages/**/*"],
+      "$routes**/*": ["src/routes/**/*"],
+      "$shared/**/*": ["src/shared/**/*"],
+      "$editor/**/*": ["src/editor/**/*"],
+      "$testUtils/**/*": ["src/test/test-utils/**/*"],
+      "$ui/**/*": ["src/shared/components/Ui/**/*"],
+      "$utils/**/*": ["src/utils/**/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

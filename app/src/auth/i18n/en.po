@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2018-09-26T12:51:00.805Z\n"
+"PO-Revision-Date: 2018-09-26T12:51:00.805Z\n"
+
+msgid "auth.streamrCore"
+msgstr "Streamr Core"
+
+msgid "auth.connectWallet"
+msgstr "Connect a wallet"
+
+msgid "purchase.price"
+msgstr "Select the period of time you want to buy access to the data and store it. Price will be updated correspondingly"
+
+msgid "purchase.safeguards"
+msgstr "Please define which appropiate and suitable safeguards you are using to protect the data. Please inform about the risks of the transfer"
+
+msgid "auth.didConnectionHeader"
+msgstr "Scan the QR code with your SSI wallet app"
+
+msgid "auth.registrationHeader"
+msgstr "Fill out user profile details"
+
+msgid "auth.registrationPending"
+msgstr "Review your credential on your SSI wallet"
+
+msgid "auth.registration.name"
+msgstr "Name"
+
+msgid "auth.registration.surname"
+msgstr "Surname"
+
+msgid "auth.registration.email"
+msgstr "Email"
+
+msgid "auth.registration.completed"
+msgstr "Registration successful, now you can login in KRAKEN"
+
+msgid "auth.registration.age"
+msgstr "Are you 18 years or older?"
+
+msgid "auth.registration.country"
+msgstr "Country of residence"
+
+msgid "auth.registration.sharing"
+msgstr "Are you sharing data or looking for data on behalf of an organization such as a private company or a research center?"
+
+msgid "auth.registration.institution"
+msgstr "Name of institution"
+
+msgid "auth.registration.typeOfInstitution"
+msgstr "Type of institution"
+
+msgid "auth.registration.legal"
+msgstr "The legal representative of the organization"
+
+msgid "auth.registration.officer"
+msgstr "Data protection officer's email"
+
+msgid "auth.registration.contact"
+msgstr "Do you want to be contacted privately by other users?"
+
+msgid "auth.registration.disclaimerTitle"
+msgstr "Disclaimer about data monetisation"
+
+msgid "auth.registration.disclaimer"
+msgstr ""
+"By publishing and sharing personal data via the KRAKEN platform the data provider does not transfer ownership rights over"
+"personal data, but rather, in exchange for a monetary benefit, provides a permission for the processing of personal data by"
+"specified actors, for predefined purposes, and within the limits of the informed consent given by the data subject(s). For more"
+"information please consult KRAKEN's About page."
+
+msgid "auth.registration.disclaimerTitleRights"
+msgstr "Disclaimer about data subjects rights for a data provider that is a data subject"
+
+msgid "auth.registration.disclaimerRights"
+msgstr ""
+"You have the right to request from the entity or person with which you are sharing your personal data: access to and rectification or"
+"erasure of your personal data, the restriction of or objection to the processing of your personal data, as well as the right to data"
+"portability. As a data subject, you also have the right to withdraw your consent at any time. Using the platform communication"
+"systems you'll be able to contact the party which you are sharing personal data with and request the exercise of your data subjects"
+"rights provided by the General Data Protection Regulation. For more information on your rights as a data subject please consult"
+"KRAKEN's Privacy Policy."
+
+msgid "auth.registration.consent"
+msgstr "I confirm that I have read and consent to KRAKEN's Terms of Service"
+
+msgid "auth.registration.consentPrivacy"
+msgstr "I confirm that I have read and consent to KRAKEN's Privacy Policy"
+
+msgid "auth.connecting"
+msgstr "Connecting..."
+
+msgid "auth.couldNotConnect"
+msgstr "Couldn't connect to %{method}"
+
+msgid "auth.help.wallet"
+msgstr ""
+"Need an Ethereum wallet? "
+"<a href=\"https://ethereum.org/en/wallets/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Learn more here</a>"
+
+msgid "auth.cancel"
+msgstr "Cancel"
+
+msgid "auth.tryAgain"
+msgstr "Try again"
+
+msgid "auth.terms"
+msgstr ""
+"By connecting your wallet and using Streamr <br />"
+"you agree to our <a href=\"%{tosLink}\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Terms of Service</a>"
+
+msgid "auth.loginMethod.metamask"
+msgstr "MetaMask"
+
+msgid "auth.loginMethod.walletConnect"
+msgstr "WalletConnect"

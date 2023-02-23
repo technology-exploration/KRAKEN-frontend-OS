@@ -1,0 +1,26 @@
+ADD NEW API
+the interesting files are
+    /app/src/routes/definitions.json
+    /app/.env.required
+    /app/src/marketplace/flowtype/global-types.js
+    /app/src/routes/index.js
+
+ADD NEW SECTION TO PRODUCT EDITOR
+the interesting files are
+    /app/src/marketplace/containers/EditProductPage/index.jsx
+    /app/src/marketplace/containers/EditProductPage/Editor.jsx
+    /app/src/marketplace/containers/EditProductPage/ProductPolicies.jsx
+    /app/src/marketplace/containers/EditProductPage/ProductDetails.jsx
+    /app/src/marketplace/i18n/en.po
+
+MODIFY PRODUCT MANAGEMENT
+the "save" function in the file EditProductPage/index.js comes from EditControllerProvider
+    where there's the save function that uses the putProduct function
+        that comes from services.js
+
+PRODUCT TYPES
+defined in
+    /app/src/marketplace/flowtype/product-types.js
+
+LOGIN
+the token is stored in the local storage
